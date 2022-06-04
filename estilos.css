@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    justify-content:stretch;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 50px;
+  }
+  
+  .grid-container div {
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+    
+  }
+
+  .imagebox {
+    background: black;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .imagebox img {
+    opacity: 1;
+    transition: 0.5s opacity;
+  }
+  
+  .imagebox .imagebox-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    color: white;
+    font-size: 1.2em;
+    left: 0px;
+    padding: 10px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .imagebox:hover img {
+    opacity: 0.7;
+  }
+  
+  .imagebox:hover .imagebox-desc {
+    padding-bottom: 10%;
+  }
+
+  @media screen and (max-width: 1000px){
+
+    .col {
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+}
+
+.titulo_paginaprincipal{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  display:block;
+  color: aliceblue;
+  line-height: 5rem;
+  background: rgb(242,119,138);
+  background: radial-gradient(circle, rgba(242,119,138,1) 0%, rgba(21,12,99,1) 100%);
+  animation-name: colores;
+  animation-duration: 15s;
+  animation-delay: 5s;
+  padding: 40px;
+  margin: 5px;
+}
+
+
+@keyframes colores {
+  0% {background: rgb(149, 149, 180);}
+  25%{background: rgb(182, 22, 22);}
+  50%{background: rgb(31, 19, 100);}
+  75%{background: rgb(161, 20, 154);}
+  100%{background: rgb(177, 165, 56);}
+}
+
+body{
+  background-size: 100%;
+  background: rgb(242,119,138);
+  background: linear-gradient(18deg, rgba(242,119,138,1) 0%, rgba(64,48,199,1) 100%);
+}
+
+.contenido_principal{
+  padding: 30px;
+  margin: 30px;
+}
+
+footer{
+  background-color: black;
+  background: black;
+  
+}
+
+.titulo_profesionales{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  text-shadow: rgb(149, 149, 180);
+  color: rgba(249, 255, 240, 0.938);
+  padding: 50px;
+  text-decoration: underline;
+}
+
+
+.titulo_contacto{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  text-shadow: rgb(149, 149, 180);
+  color: rgba(249, 255, 240, 0.938);
+  padding: 50px;
+  text-decoration: underline;
+}
+
+.titulo_paginaprincipal_servicios{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  text-shadow: rgb(149, 149, 180);
+  color: rgba(249, 255, 240, 0.938);
+  padding: 50px;
+  text-decoration: underline;
+}
+
+.titulo_paginaprincipal_turnos{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  text-shadow: rgb(149, 149, 180);
+  color: rgba(249, 255, 240, 0.938);
+  padding: 50px;
+  text-decoration: underline;
+}
