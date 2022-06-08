@@ -1,0 +1,32 @@
+$Color-inicial: rgb(149, 149, 180);
+$Color2: rgb(31, 19, 100);
+$color-final: rgb(177, 165, 56);
+$Padymarg: 30px;
+$colordetitulos: aliceblue;
+
+
+.titulo_paginaprincipal{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: $colordetitulos;
+    line-height: 5rem;
+    background: rgb(242,119,138);
+    background: radial-gradient(circle, rgba(242,119,138,1) 0%, $Color2 100%);
+    animation-name: colores;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    padding: $Padymarg;
+    margin: 5px;
+  }
+
+
+
+@keyframes colores {
+    0% {background: $Color-inicial;}
+    25%{background: rgb(182, 22, 22);}
+    50%{background: $Color2;}
+    75%{background: rgb(161, 20, 154);}
+    100%{background: $color-final;}
+  }

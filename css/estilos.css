@@ -76,7 +76,7 @@
   animation-name: colores;
   animation-duration: 15s;
   animation-delay: 5s;
-  padding: 40px;
+  padding: 30px;
   margin: 5px;
 }
 
@@ -100,11 +100,6 @@ body{
   margin: 30px;
 }
 
-footer{
-  background-color: black;
-  background: black;
-  
-}
 
 .titulo_profesionales{
   text-align: center;

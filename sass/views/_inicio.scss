@@ -1,0 +1,14 @@
+
+
+
+  body{
+
+    background: rgb(242,119,138);
+    background: linear-gradient(18deg, rgba(242,119,138,1) 0%, rgba(64,48,199,1) 100%);
+    background-size: 100%;
+  }
+  
+  .contenido_principal{
+    padding: $Padymarg;
+    margin: $Padymarg;
+  }
