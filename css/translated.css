@@ -26,6 +26,9 @@
   100% {
     background: #b1a538; } }
 
+h1 {
+  font-size: 3em; }
+
 /*partials*/
 /*views*/
 body {
@@ -36,3 +39,40 @@ body {
 .contenido_principal {
   padding: 30px;
   margin: 30px; }
+
+.grid-container {
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 50px; }
+  .grid-container div {
+    background-color: black;
+    border: 1px solid black;
+    text-align: center; }
+
+.imagebox, .imagebox img {
+  background: black;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .imagebox img {
+    opacity: 1;
+    transition: 0.5s opacity; }
+  .imagebox .imagebox-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    color: white;
+    font-size: 1.2em;
+    left: 0px;
+    padding: 10px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%; }
+  .imagebox:hover img, .imagebox img:hover img {
+    opacity: 0.7; }
+
+.imagebox:hover .imagebox-desc, .imagebox img:hover .imagebox-desc {
+  padding-bottom: 10%; }

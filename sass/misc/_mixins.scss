@@ -1,0 +1,12 @@
+@mixin grid 
+
+{
+
+display: grid;
+justify-content: stretch;
+grid-template-columns: auto auto auto auto;
+gap: 10px;
+padding: 50px;
+
+}
+    

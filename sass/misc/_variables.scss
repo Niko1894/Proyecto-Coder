@@ -1,0 +1,15 @@
+    
+$tamaño_titulo: (
+    h1: 3em,
+    h2: 3em,
+    h3: 2em,
+    h4: 1em,
+    h5: 0.75em,
+    h6: 0.35em
+);
+
+$h1:map-get($tamaño_titulo, h1 );
+
+h1 {
+    font-size: $h1;
+}
