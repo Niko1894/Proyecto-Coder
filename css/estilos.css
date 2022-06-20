@@ -64,6 +64,21 @@
     }
 }
 
+
+
+@media screen and (max-width: 368px){
+
+  .titulo_paginaprincipal{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+  
+
+
+
+
 .titulo_paginaprincipal{
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
