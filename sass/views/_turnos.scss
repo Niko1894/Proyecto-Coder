@@ -1,0 +1,13 @@
+$Sombra-color: black;
+$Texto-subrayado: underline;
+
+
+.titulo_paginaprincipal_turnos{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-shadow: $Sombra-color;
+    color: rgba(249, 255, 240, 0.938);
+    padding: 50px;
+    text-decoration: $Texto-subrayado;
+  }

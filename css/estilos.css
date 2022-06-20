@@ -90,9 +90,10 @@
 }
 
 body{
+  
+  background: url(../img/FondoDebody.jpg);
   background-size: 100%;
-  background: rgb(242,119,138);
-  background: linear-gradient(18deg, rgba(242,119,138,1) 0%, rgba(64,48,199,1) 100%);
+
 }
 
 .contenido_principal{
@@ -106,7 +107,7 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
   text-shadow: rgb(149, 149, 180);
-  color: rgba(249, 255, 240, 0.938);
+  color: black;
   padding: 50px;
   text-decoration: underline;
 }
@@ -117,7 +118,7 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
   text-shadow: rgb(149, 149, 180);
-  color: rgba(249, 255, 240, 0.938);
+  color: black;
   padding: 50px;
   text-decoration: underline;
 }
@@ -127,7 +128,7 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
   text-shadow: rgb(149, 149, 180);
-  color: rgba(249, 255, 240, 0.938);
+  color: black;
   padding: 50px;
   text-decoration: underline;
 }
@@ -137,7 +138,7 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
   text-shadow: rgb(149, 149, 180);
-  color: rgba(249, 255, 240, 0.938);
+  color: black;
   padding: 50px;
   text-decoration: underline;
 }
